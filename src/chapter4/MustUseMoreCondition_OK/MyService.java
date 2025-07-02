@@ -1,5 +1,9 @@
 package chapter4.MustUseMoreCondition_OK;
 
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class MyService {
     private Lock lock = new ReentrantLock();
     public Condition conditionA = lock.newCondition();

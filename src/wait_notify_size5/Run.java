@@ -1,5 +1,9 @@
 package wait_notify_size5;
 
+/**
+ * Created by Hensivk on 2018/4/26.
+ * 这是一个正确使用wait和notify的例子
+ */
 public class Run {
     public static void main(String[] args) {
 
