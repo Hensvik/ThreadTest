@@ -2,6 +2,7 @@ package base.suspend_resume;
 
 /*
  * Created by Hensvik on 2025/5/9.
+ * 不推荐suspend挂起线程的原因：
  * 当 t1 和 t2 都进入同步块后挂起，它们会持续持有 u 对象的锁
 主线程调用 t1.resume() 后，即使 t1 恢复执行并释放锁，但由于 t2.resume() 可能在 t2 实际挂起前就被调用（时序问题），t2 可能永远无法被唤醒
  */

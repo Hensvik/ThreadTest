@@ -1,5 +1,11 @@
 package p_c_allWait;
 
+/**
+ * @Author
+ * @Time 2025/7/4 11:21
+ * @Desciption 线程组的使用方法
+ * @Version
+ */
 public class Run {
     public static void main(String[] args) throws InterruptedException {
 
