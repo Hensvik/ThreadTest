@@ -3,6 +3,12 @@ package base.concurrent.ReentrantLock;
 
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * @Author
+ * @Time 2025/7/8 19:00
+ * @Desciption 互相调用导致死锁的列子
+ * @Version
+ */
 public class TryLock implements Runnable{
     public static ReentrantLock lock1 = new ReentrantLock();
     public static ReentrantLock lock2 = new ReentrantLock();
